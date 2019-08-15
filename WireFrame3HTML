@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>National Park Quiz App</title>
+    <meta name="description" content="Test your National Park knowledge.">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href=""    <script src=""</script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header role="banner">
+      <div class="">
+        <a href="index.html">
+        </a>
+      </div>
+       <div class="">
+        <ul>
+          <li>Question: <span class="questionNumber">1</span>/10</li>
+          <li>Score: <span class="score">1</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="quizStart">
+        <h1>Correct!</h1>
+         <img src="wrangell-st. elias Q2.jpg" alt="Wrangell-St.Elias">
+        <h2> Wrangell-St. Elias is the largest National Park at 8,323,146.48 acres. </h2>
+        <button type="button" class="startButton">Next Question</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+    </main>
+  </body>
+</html>
