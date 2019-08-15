@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>National Park Quiz App</title>
+    <meta name="description" content="Test your National Park knowledge.">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href=""    <script src=""</script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <header role="banner">
+      <div class="">
+        <a href="index.html">
+        </a>
+      </div>
+       <div class="">
+        <ul>
+          <li>Question: <span class="questionNumber">0</span>/10</li>
+          <li>Score: <span class="score">0</span></li>
+        </ul>
+      </div>
+    </header>
+    <main role="main">
+      <div class="quizStart">
+        <h1>How well do you know your National Parks?</h1>
+        <button type="button" class="startButton">Find out!</button>
+      </div>
+      <div class="questionAnswerForm"></div>
+    </main>
+  </body>
+</html>
