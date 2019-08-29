@@ -139,6 +139,7 @@ var mainController = {
   fillInQuestionText: function(that) {
     console.log('fillInQuestionText called');
     var currQuestion = that.data.questions[that.data.currentQuestionIndex];
+    that.uiElements.questionPageMessage.text('');
     that.uiElements.questionText.text(currQuestion.questionText);
     that.uiElements.answerText1.text(currQuestion.answerText[0]);
     that.uiElements.answerText2.text(currQuestion.answerText[1]);
