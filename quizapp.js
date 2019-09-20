@@ -96,7 +96,10 @@ var mainController = {
     });
 
     this.uiElements.finalButton.click(function(){
+      that.data.score = 0;
+      that.data.score.currentQuestionIndex = 0; 
       that.uiElements.startPage.show();
+      that.uiElements.finalPage.hide();
     })
     
     this.uiElements.questionForm.submit(function(e) {
